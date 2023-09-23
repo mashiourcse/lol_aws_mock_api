@@ -1,0 +1,10 @@
+Tournament rankings
+
+AGET/tournament_rankings/{tournament_id}
+
+tournament: {
+	tournament_id,
+	stage (group,knockout,quarter,semi,final), 
+	tournament_type (regular season, worlds, msi)}, //optional field relevant to the report
+	teams: { team_id, team_code, team_name, rank }
+	}
